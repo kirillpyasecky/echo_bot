@@ -40,7 +40,7 @@ int main() {
     return EXIT_FAILURE;
   }
 
-  nlohmann::json config = nlohmann::json::parse(config_file);
+  auto config = nlohmann::json::parse(config_file);
   std::string token = config["BOT_TOKEN"].get<std::string>();
 
   static std::unique_ptr<EchoBot> BOT(new EchoBot(token));
