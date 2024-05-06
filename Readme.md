@@ -1,7 +1,7 @@
 ## Echo bot
 
 ### Run
-- Creat config file with your bot token, example down below:
+- Creat config file `config.json` with your bot token, example down below:
 ```config.json
 {
     "BOT_TOKEN": "<your_token>"
